@@ -14,9 +14,9 @@ int main(int argc, char* args[]){
 	cout << "Seu nome eh " << inicial <<". " << nome << endl;
 	cout << "Sua classe eh " << classe << endl;
 
-	float atk = 999999;
-	float def = 999999, mag = 999999, mr = 99999;
-	float hp = 93456, hpmax = 100000;
+	float atk = 12;
+	float def = 10, mag = 6, mr = 5;
+	float hp = 100, hpmax = 200;
 	float porcent;
 
 	cout << "Status" << endl << "ATK: " << atk << endl << "INT: " << mag << endl << "DEF: " << def << endl << "MR: " << mr << endl;
