@@ -74,8 +74,12 @@ int main()
 			// Teste o programa depois de feito e veja se tem algum erro!
 			)
 		{
+			if(qnt_moedas_tira <= moedas){
 		moedas = moedas - qnt_moedas_tira;
-			
+		}else{
+			cout << "A quantidade de moedas digitada eh maior que as que existem, por favor retire um numero valido." << endl;
+			system("pause");
+		}
 			// Vê se o jogo terminou.
 			if (moedas <= 0)
 			{
